@@ -13,4 +13,13 @@ public class Cerchio extends Forma {
     public double perimeter() {
         return 2 * Math.PI * raggio;
 }
+
+    public double getRaggio() {
+        return raggio;
+    }
+
+    public void setRaggio(double raggio) {
+        this.raggio = raggio;
+    }
+
 }
